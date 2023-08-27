@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow:hidden
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(232, 228, 228);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: grey;
+    border-bottom: 2px solid transparent;
+    transition: 0.8s ease;
+    font-size: 18px;
+}
+
+.na:hover {
+    border-bottom: 2px solid #29d882;
+    font-size: 17.5px;
+}
+
+#logo h1 {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #29d882;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+#hero {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture {
+    margin-right: 100px;
+}
+
+img {
+    background-color: #29d882;
+    border-radius: 300px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+
+    margin-left: 80px;
+}
+
+.content h1 {
+    font-size: 65px;
+}
+
+.content h2 {
+    font-size: 30px;
+    color: #29d882;
+    font-weight: bold;
+}
+
+.content p {
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 35px;
+    color: #29d882;
+
+}
+
+.icon a {
+    margin: 3px;
+    color: #29d882;
+}
+
+#skills {
+    height: 100vh;
+
+}
+
+#about {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+}
+
+#contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+textarea{
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 2px solid #29d882;
+    width: 600px;
+    height: 400px;
+   
+}
+input{
+    font-size: 15px;
+    padding: 10px;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.html{
+    background-color: #2085ec;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.css{
+    background-color: #4CAF50;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.js{
+    background-color: #dfc731;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.python{
+    background-color: #a5a6c1;
+    width: 380px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.java{
+    background-color: #00bd95;
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color:green;
+    }
+}
