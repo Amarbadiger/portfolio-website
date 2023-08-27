@@ -121,7 +121,7 @@ img {
 }
 
 #contact {
-    height: 100vh;
+    height: 90vh;
 }
 
 .con {
@@ -133,7 +133,7 @@ img {
 }
 
 #contact{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,13 +226,13 @@ button{
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    animation: fadeIn 1s ease-in-out;
+    
 }
-@keyframes fadeIn {
-    from {
-        background-color: red;
-    }
-    to {
-        background-color:green;
-    }
+footer p{
+    font-weight: bold;
+    height: 3vh;
+    box-shadow: 1px -1px 1px rgb(244, 243, 243);
+    text-align: center;
+    color: #29d882;
 }
+
