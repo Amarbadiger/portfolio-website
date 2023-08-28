@@ -143,6 +143,8 @@ textarea{
     padding: 10px;
     font-size: 15px;
     resize: none;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
 }
 form{
     display: flex;
@@ -158,17 +160,20 @@ form{
 input{
     font-size: 15px;
     padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #4CAF50;
 }
 button{
     background-color: #4CAF50;
     border: none;
     border-radius: 12px;
     color: white;
-    padding: 7px 16px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 #skills{
     display: flex;
@@ -230,7 +235,7 @@ button{
 }
 footer p{
     font-weight: bold;
-    height: 3vh;
+    height: 5vh;
     box-shadow: 1px -1px 1px rgb(244, 243, 243);
     text-align: center;
     color: #29d882;
